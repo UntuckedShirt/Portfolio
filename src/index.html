@@ -2,12 +2,144 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>DevNate Portfolio</title>
+
+  <link rel="stylesheet" 
+  href="https://cdnjs.cloudFlare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!--Fonts-->
+
+
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.scss">
+  
 </head>
+
 <body>
+  <header>
+    <div class="logo">
+      <img src="img/devjane.png" alt="">
+    </div>
+    <button class="nav-toggle" aira-label=""toggle navigation>
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href='#home' class="nav__link">Home</a></li>
+        <li class="nav__item"><a href='#services' class="nav__link">My Services</a></li>
+        <li class="nav__item"><a href='#about' class="nav__link">About me</a></li>
+        <li class="nav__item"><a href='#work' class="nav__link">My Work</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <app-root></app-root>
-</body>
+<!--- Introduction -->
+
+  <section class="intro" id="home">
+    <h1 class="section__title" section__title--intro>
+      Hi! I am <strong>Nathan Miller</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">fullstack-dev</p>
+    <img src="img" alt="a picture of Nate being Nate">
+  </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2> 
+
+      <div class="services">
+          <h3>FullStack Development</h3>
+            <p></p>
+
+        </div> <!--Services-->
+
+        <div class="services">
+            <h3>Game App</h3>
+              <p></p>
+  
+          </div> <!--Services-->
+
+          <div class="services">
+              <h3>C#/Java </h3>
+                <p></p>
+    
+            </div> <!--Services-->
+
+      </div>
+      <a href="work" class="btn">My Work</a>
+        </section>
+      <!-- About Me-->
+
+        <section class="about-me" id="about">
+          <h2 class="section__title section__title--about">Who I am</h2>
+          <p class="section__subtitle section__subtitle--about"></p>
+
+          <div class="about-me__body">
+            <p>After spending more than a decade in Criminal Justice and Mental Health, I had decided to make a career change that would better fulfill what I thought would be a perfect fit for me. Now as a recent Grad of the Flatiron School, I have been able to truly find my place in the working world. 
+
+              With a formal education in both Criminal Justice/Mental Health, I've displayed strong leadership skills to accompany my newly founded technical skills. 
+              
+              I have a strong understanding of Ruby on Rails · Python · JavaScript · React\Redux · MySQL · HTML · CSS · OOP · Git · Full-Stack Development · Excellent Written and Oral Communication · Microsoft Office Suite Relationship Building · UX Design · Strong Technical Acumen · Detail-OrientedAfter</p>
+          </div>
+
+          <img src="img" alt="a picture of Nate being Nate">
+        </section>
+
+        <!--My work-->
+
+        <section class="My--work" id="work">
+          <h2 class="section__title">My work</h2>
+            <p class="section__subtitle"></p>
+
+        <div class="portfolio">
+
+          
+
+            <!--Portfolio-->
+            <!--replace portfolio pictures-->
+
+          <a href="#" class="portfolio__item">
+            <img src="portfolio" alt="" class="portfolio__img">
+          </a>
+
+           <!--Portfolio-->
+           <a href="#" class="portfolio__item">
+            <img src="portfolio" alt="" class="portfolio__img">
+          </a>
+
+           <!--Portfolio-->
+           <a href="#" class="portfolio__item">
+            <img src="portfolio" alt="" class="portfolio__img">
+
+             <!--Portfolio-->
+          <a href="#" class="portfolio__item">
+            <img src="portfolio" alt="" class="portfolio__img">
+          </a>
+
+          </a>
+        </div>
+        </section>
+        
+        <!--Footer-->
+        <footer>
+          <!--Replace with own contacts-->
+            <a href="mailto:NateM31190@Gmail.com" class="footer__link">NateM31190@Gmail.com</a>
+            <ul class="social-list">
+              <li class="social-list__item"><a class="social-list__link" href="https://github.com/UntuckedShirt">a</a></li>
+              <li class="social-list__item"><a class="social-list__link" href="www.linkedin.com/in/nathan-alexander-miller">b</a></li>
+              <li class="social-list__item"><a class="social-list__link"></a></li>
+              <li class="social-list__item"><a class="social-list__link"></a></li>
+            </ul>
+        </footer>
+
+
+  </body>
 </html>
